@@ -1,4 +1,9 @@
 {
+  config = {
+    viAlias = true;
+    vimAlias = true;
+  };
+
   # Import all your configuration modules here
   imports = [
     # Options
