@@ -25,5 +25,6 @@
     ./plugins/telescope.nix
     ./plugins/trim.nix
     ./plugins/treesitter.nix
+    ./plugins/which-key.nix
   ];
 }
