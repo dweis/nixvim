@@ -12,12 +12,15 @@
     # Keys
     ./keys.nix
 
-    # Colorschem
-    ./catppuccin.nix
+    # Colorschemes
+    ./colorschemes/catppuccin.nix
 
     # Plugins
-    ./bufferline.nix
-    ./lualine.nix
-    ./telescope.nix
+    ./plugins/cmp.nix
+    ./plugins/lsp.nix
+    ./plugins/copilot.nix
+    ./plugins/bufferline.nix
+    ./plugins/lualine.nix
+    ./plugins/telescope.nix
   ];
 }
