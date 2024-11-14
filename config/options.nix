@@ -31,5 +31,7 @@
     wrap = false;
 
     colorcolumn="80,120";
+
+    clipboard = "unnamedplus";
   };
 }
