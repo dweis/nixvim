@@ -18,6 +18,7 @@
     # Plugins
     ./plugins/bufferline.nix
     ./plugins/cmp.nix
+    ./plugins/colorizer.nix
     ./plugins/copilot.nix
     ./plugins/lsp.nix
     ./plugins/lualine.nix
