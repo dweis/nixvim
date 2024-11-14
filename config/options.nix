@@ -9,8 +9,11 @@
     smartcase = true;
 
     list = true;
-    # NOTE: .__raw here means that this field is raw lua code
-    listchars.__raw = "{ tab = '» ', trail = '·', nbsp = '␣' }";
+    listchars = {
+      tab = "» ";
+      trail = "·";
+      nbsp = "␣";
+    };
 
     tabstop = 2;
     shiftwidth = 2;
@@ -20,6 +23,12 @@
 
     cursorline = true;
     ruler = true;
+
+    incsearch = true;
+
+    swapfile = false;
+
+    wrap = false;
 
     colorcolumn="80,120";
   };

@@ -16,11 +16,13 @@
     ./colorschemes/catppuccin.nix
 
     # Plugins
-    ./plugins/cmp.nix
-    ./plugins/lsp.nix
-    ./plugins/copilot.nix
     ./plugins/bufferline.nix
+    ./plugins/cmp.nix
+    ./plugins/copilot.nix
+    ./plugins/lsp.nix
     ./plugins/lualine.nix
     ./plugins/telescope.nix
+    ./plugins/trim.nix
+    ./plugins/treesitter.nix
   ];
 }
