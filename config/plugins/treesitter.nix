@@ -1,7 +1,7 @@
 {pkgs,...}: {
   plugins.treesitter = {
     enable = true;
-
+    nixvimInjections = true;
     settings = {
       indent.enable = true;
       highlight.enable = true;
@@ -15,6 +15,7 @@
         "make"
         "markdown"
         "nix"
+        "python"
         "regex"
         "rust"
         "scala"
@@ -37,6 +38,7 @@
       markdown
       nix
       regex
+      python
       rust
       scala
       toml

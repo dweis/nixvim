@@ -5,7 +5,7 @@ in
   plugins = {
     cmp = {
       enable = true;
-      settings = { 
+      settings = {
         experimental = { ghost_text = true; };
         sources = [
           { name = "copilot"; }
@@ -13,26 +13,6 @@ in
           { name = "path"; }
           { name = "buffer"; }
         ];
-        formatting = {
-          fields = [
-            "menu"
-            "abbr"
-            "kind"
-          ];
-          format = ''
-            function(entry, item)
-              local menu_icon = {
-                nvim_lsp = '[LSP]',
-                luasnip = '[SNIP]',
-                buffer = '[BUF]',
-                path = '[PATH]',
-              }
-
-              item.menu = menu_icon[entry.source.name]
-              return item
-            end
-          '';
-        };
 
         mapping = {
           "<Up>" = "cmp.mapping.select_prev_item(${selectOpts})";

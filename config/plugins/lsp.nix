@@ -3,6 +3,7 @@
     fidget = {
       enable = true;
     };
+    lspkind.enable = true;
     lspsaga = {
       enable = true;
       beacon = {
@@ -81,18 +82,15 @@
           installCargo = false;
           installRustc = false;
         };
-        ts_ls = {
-          enable = true;
-        };
-        lua_ls = {
-          enable = true;
-        };
-        nil_ls = {
-          enable = true;
-        };
-        metals = {
-          enable = true;
-        };
+        ts_ls. enable = true;
+        lua_ls.enable = true;
+        nil_ls.enable = true;
+        metals.enable = true;
+        dockerls.enable = true;
+        html.enable = true;
+        eslint.enable = true;
+        jsonls.enable = true;
+        tailwindcss.enable = true;
       };
     };
   };

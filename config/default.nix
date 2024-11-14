@@ -19,9 +19,12 @@
     ./plugins/bufferline.nix
     ./plugins/cmp.nix
     ./plugins/colorizer.nix
+    ./plugins/conform.nix
     ./plugins/copilot.nix
+    ./plugins/dap.nix
     ./plugins/lsp.nix
     ./plugins/lualine.nix
+    ./plugins/statuscol.nix
     ./plugins/telescope.nix
     ./plugins/trim.nix
     ./plugins/treesitter.nix
