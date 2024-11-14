@@ -16,6 +16,7 @@
     ./colorschemes/catppuccin.nix
 
     # Plugins
+    ./plugins/alpha.nix
     ./plugins/bufferline.nix
     ./plugins/cmp.nix
     ./plugins/colorizer.nix
