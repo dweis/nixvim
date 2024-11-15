@@ -1,7 +1,10 @@
-{
+{ pkgs, ... }: {
   config = {
     viAlias = true;
     vimAlias = true;
+    extraPackages = with pkgs; [
+      ripgrep
+    ];
   };
 
   # Import all your configuration modules here
