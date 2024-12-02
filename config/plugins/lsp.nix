@@ -91,6 +91,7 @@
         eslint.enable = true;
         jsonls.enable = true;
         tailwindcss.enable = true;
+        yamlls.enable = true;
       };
     };
   };
