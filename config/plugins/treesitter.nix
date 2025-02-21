@@ -15,6 +15,7 @@
         "make"
         "markdown"
         "nix"
+        "odin"
         "python"
         "regex"
         "rust"
@@ -37,8 +38,9 @@
       make
       markdown
       nix
-      regex
+      odin
       python
+      regex
       rust
       scala
       toml

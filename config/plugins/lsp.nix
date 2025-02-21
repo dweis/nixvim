@@ -86,6 +86,7 @@
         lua_ls.enable = true;
         nil_ls.enable = true;
         metals.enable = true;
+        ols.enable = true;
         dockerls.enable = true;
         html.enable = true;
         eslint.enable = true;
