@@ -2,16 +2,16 @@
   plugins = {
     dap = {
       enable = true;
-      extensions = {
-        dap-python.enable = true;
-        dap-ui = {
-          enable = true;
-          controls = {
-            enabled = true;
-          };
+    };
+    dap-python.enable = true;
+    dap-ui = {
+      enable = true;
+      settings = {
+        controls = {
+          enabled = true;
         };
       };
-      extensions.dap-virtual-text.enable = true;
     };
+    dap-virtual-text.enable = true;
   };
 }

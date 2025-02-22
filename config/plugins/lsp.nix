@@ -74,6 +74,15 @@
         clangd = {
           enable = true;
         };
+        dockerls.enable = true;
+        eslint.enable = true;
+        glsl_analyzer.enable = true;
+        html.enable = true;
+        jsonls.enable = true;
+        lua_ls.enable = true;
+        metals.enable = true;
+        nil_ls.enable = true;
+        ols.enable = true;
         pyright = {
           enable = true;
         };
@@ -82,16 +91,8 @@
           installCargo = false;
           installRustc = false;
         };
-        ts_ls. enable = true;
-        lua_ls.enable = true;
-        nil_ls.enable = true;
-        metals.enable = true;
-        ols.enable = true;
-        dockerls.enable = true;
-        html.enable = true;
-        eslint.enable = true;
-        jsonls.enable = true;
         tailwindcss.enable = true;
+        ts_ls. enable = true;
         yamlls.enable = true;
       };
     };
