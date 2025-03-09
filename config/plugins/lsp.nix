@@ -82,7 +82,19 @@
         lua_ls.enable = true;
         metals.enable = true;
         nil_ls.enable = true;
-        ols.enable = true;
+        ols = {
+          enable = true;
+          settings = {
+            enable_document_symbols = true;
+            enable_semantic_tokens = true;
+            enable_hover = true;
+            enable_snippets = true;
+            enable_format = true;
+            enable_inlay_hints = true;
+            checker_args = ["-vet" "-strict-style"];
+            collections_path = ""; # Set this to your Odin collections path if needed
+          };
+        };
         pyright = {
           enable = true;
         };
@@ -94,6 +106,7 @@
         tailwindcss.enable = true;
         ts_ls. enable = true;
         yamlls.enable = true;
+        zls.enable = true;
       };
     };
   };

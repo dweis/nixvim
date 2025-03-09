@@ -25,6 +25,7 @@
         "vimdoc"
         "xml"
         "yaml"
+        "zig"
       ];
     };
 
