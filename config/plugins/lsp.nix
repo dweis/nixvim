@@ -104,7 +104,7 @@
           installRustc = false;
         };
         tailwindcss.enable = true;
-        ts_ls. enable = true;
+        ts_ls.enable = true;
         yamlls.enable = true;
         zls.enable = true;
       };
